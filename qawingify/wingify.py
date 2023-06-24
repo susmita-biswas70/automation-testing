@@ -5,7 +5,7 @@ from selenium.webdriver.common.keys import Keys
 # from selenium.webdriver.support.ui import WebDriverWait
 
 base_url = "https://sakshingp.github.io/assignment/login.html"
-driver = webdriver.Chrome(executable_path="D:\\automation-testing\\qawingify\\chromedriver.exe")
+driver = webdriver.Chrome()
 driver.maximize_window()
 driver.get(base_url)
 driver.implicitly_wait(3)
