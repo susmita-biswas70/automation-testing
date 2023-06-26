@@ -26,6 +26,6 @@ class Activity2():
         file.close()
         #click the Run button
         driver.find_element(By.CLASS_NAME,"run-text").click()
-        time.sleep(30)
+        time.sleep(10)
 act2=Activity2()
 act2.test()
